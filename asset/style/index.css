@@ -1,0 +1,87 @@
+body, html{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+}
+
+.fixed-header{
+    text-align: center;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(51, 35, 35);
+}
+
+h1 {
+    font-family: 'Supermercado One', cursive;
+    color: aliceblue;
+}
+
+h1.title {
+    font-family: 'Supermercado One', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 22pt;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.top{
+    background-image: url(/asset/image/glaurung.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 78%;
+    width: 100%;
+}
+
+.middle-top{
+    background: rgb(77, 62, 62);
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.middle{
+    background-image: url(/asset/image/smaug-2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 78%;
+    width: 100%;
+}
+
+.middle-bottom{
+    background: rgb(59, 41, 41);
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.bottom{
+    background-image: url(/asset/image/ancalagon.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 78%; 
+    width: 100%;
+}
+
+.bottom-tom{
+    background: rgb(48, 21, 21);
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px; 
+}
